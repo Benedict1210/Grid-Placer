@@ -447,10 +447,8 @@ namespace GridPlacer{
             HandleUtility.AddDefaultControl(GUIUtility.GetControlID(FocusType.Passive));
             //Get a reference to the current event
             Event current = Event.current;
-            //Now we calculate a ray starting from the viewport camera and pointing along its forward vector
-            Ray screenRay = Camera.current.ViewportPointToRay(new Vector3(current.mousePosition.x / Camera.current.pixelWidth,
-                                                                1.0f - current.mousePosition.y / Camera.current.pixelHeight,
-                                                                Camera.current.nearClipPlane));
+            //Now we calculate a ray starting from the GUI
+            Ray screenRay = HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
             //Draw the Grid Origin
             Handles.color = new Color(1.0f, 0.0f, 0.0f, 0.5f);
             Handles.SphereHandleCap(0, gridOrigin, Quaternion.identity, 0.5f, EventType.Repaint);
