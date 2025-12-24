@@ -1,16 +1,21 @@
 {
-  "name": "com.fixed.gridplacer",
+  "name": "com.benedict.gridplacer",
   "version": "0.6.7",
   "displayName": "Grid Placer",
   "description": "Creating modular, grid-based maps is an absolute pain and extremely time consuming. This tool aims to alleviate this process.",
-  "unity": "6000.2.XXXX",
+  "unity": "2021.3",
   "keywords": [
     "leveldesign",
     "grid"
   ],
   "author": {
     "name": "Benedict",
-    "url": ""
+    "url": "https://github.com/Benedict1210"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Benedict1210/Grid-Placer.git",
+    "commit": "b11b134780a0d873b8c9c22c8eb145fb32138f12"
   },
   "type": "module"
 }
