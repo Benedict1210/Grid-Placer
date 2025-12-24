@@ -1,16 +1,16 @@
 {
-  "name": "com.jamathan.gridplacer",
-  "version": "1.2.3",
+  "name": "com.fixed.gridplacer",
+  "version": "0.6.7",
   "displayName": "Grid Placer",
   "description": "Creating modular, grid-based maps is an absolute pain and extremely time consuming. This tool aims to alleviate this process.",
-  "unity": "2020.1",
+  "unity": "6000.2.XXXX",
   "keywords": [
     "leveldesign",
     "grid"
   ],
   "author": {
-    "name": "Jamathan",
-    "url": "https://twitter.com/malitschek"
+    "name": "Benedict",
+    "url": ""
   },
   "type": "module"
 }
